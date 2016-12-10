@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Caretaker Dashboard
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+<div padding>
+  <ion-segment [(ngModel)]="tabs">
+    <ion-segment-button value="notifs">
+      Notifications
+    </ion-segment-button>
+    <ion-segment-button value="accounts">
+      Accounts
+    </ion-segment-button>
+  </ion-segment>
+</div>
+
+<div [ngSwitch]="tabs">
+  <ion-list *ngSwitchCase="'notifs'">
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="img/thumbnail-puppy-1.jpg">
+      </ion-thumbnail>
+      <h2>Ruby</h2>
+    </ion-item>
+    ...
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'accounts'">
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="img/thumbnail-kitten-1.jpg">
+      </ion-thumbnail>
+      <h2>Luna</h2>
+    </ion-item>
+    ...
+  </ion-list>
+</div>
+</ion-content>

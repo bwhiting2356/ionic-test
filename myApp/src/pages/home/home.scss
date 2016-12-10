@@ -1,0 +1,33 @@
+page-home {
+    text-align: center;
+
+    ion-icon {
+        position: absolute;
+        right: 10px;
+    }
+
+    ion-item {
+        padding-bottom: 5px;
+        .amount {
+            position: absolute;
+            right: 10px;
+        }
+
+        .date {
+            position: absolute;
+            left: 18px;
+            margin-top: 17px;
+            font-size: 0.5em;
+            color:grey;
+        }
+
+        .bell {
+            position: absolute;
+            right: 72px;
+            margin-bottom: 5px;
+            color: grey;
+
+        }
+    }
+
+}
