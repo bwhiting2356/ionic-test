@@ -12,6 +12,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'caretaker.html'
 })
 export class CaretakerPage {
+  tabs = 'notifs';
 
   constructor(public navCtrl: NavController) {}
 
