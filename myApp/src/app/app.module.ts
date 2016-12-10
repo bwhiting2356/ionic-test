@@ -7,7 +7,7 @@ import { CaretakerPage } from '../pages/caretaker/caretaker';
 @NgModule({
   declarations: [
     MyApp,
-    CaretakerPage
+    HomePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -15,7 +15,7 @@ import { CaretakerPage } from '../pages/caretaker/caretaker';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    CaretakerPage
+    HomePage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

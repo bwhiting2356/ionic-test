@@ -10,7 +10,7 @@ import { CaretakerPage } from '../pages/caretaker/caretaker';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage = CaretakerPage;
+  rootPage = HomePage;
 
   constructor(platform: Platform) {
     platform.ready().then(() => {
